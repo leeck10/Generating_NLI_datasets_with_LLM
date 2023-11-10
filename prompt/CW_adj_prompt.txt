@@ -1,0 +1,9 @@
+Q : In a sentence {He lives in a big house},  Run the pos_tag and change the word with the 'JJ' tag to contradictory word. If there is no 'JJ' tag, print '@'. \
+A : The result of the pos_tag is[('He', 'PRP'), ('lives', 'VBZ'), ('in', 'IN'), ('a', 'DT'), ('big', 'JJ'), ('house', 'NN')]\
+The word that is the 'JJ' tag in the sentence is 'big', If you change 'big' to contradictory 'JJ' tag word, it becomes 'small', So The answer is {He lives in a small house}\
+Q : In a sentence {A young dog laying in a dog bed},  Run the pos_tag and change the word with the 'JJ' tag to contradictory word. If there is no 'JJ' tag, print '@'. \
+A : The result of the pos_tag is[('A', 'DT'), ('young', 'JJ'), ('dog', 'NN'), ('laying', 'VBG'), ('in', 'IN'), ('a', 'DT'), ('dog', 'NN'), ('bed', 'NN')]\
+The word that is the 'JJ' tag in the sentence is 'young', If you change 'young' to contradictory 'JJ' tag word, it becomes 'old', So The answer is {A old dog laying in a dog bed}\
+Q : In a sentence {Some old cars near each other on a grassy area},  Run the pos_tag and change the word with the 'JJ' tag to contradictory word. If there is no 'JJ' tag, print '@'. \
+A : The result of the pos_tag is[('Some', 'DT'), ('old', 'JJ'), ('cars', 'NNS'), ('near', 'IN'), ('each', 'DT'), ('other', 'JJ'), ('on', 'IN'), ('a', 'DT'), ('grassy', 'JJ'), ('area', 'NN')]\
+The word that is the 'JJ' tag in the sentence is 'old', If you change 'old' to contradictory 'JJ' tag word, it becomes 'new', So The answer is {Some new cars near each other on a grassy area}\

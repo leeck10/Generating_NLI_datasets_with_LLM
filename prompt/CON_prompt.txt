@@ -1,0 +1,6 @@
+Q : In a sentence {A book underneath a cell phone on a wooden table}, Add modifiers (in/at [mask] [mask]) to the sentence. \
+A : The appropriate word for the context is 'in the corner', So The answer is {A book underneath a cell phone on a wooden table in the corner}\
+Q : In a sentence {three horses standing by a tree eating the grass}, Add modifiers (in/at [mask] [mask]) to the sentence. \
+A : The appropriate word for the context is 'in the yard', So The answer is {three horses standing by a tree eating the grass in the yard}\
+Q : In a sentence {A group of stuffed animals that are cleverly arranged together}, Add modifiers (in/at [mask] [mask]) to the sentence.\
+A : The appropriate word for the context is 'in the room', So The answer is {A group of stuffed animals that are cleverly arranged together in the room}\

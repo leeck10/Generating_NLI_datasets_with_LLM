@@ -1,0 +1,6 @@
+Q : In a sentence {A person with red shirt is running near the garden}, Create sentences with only the core meaning left and the rest of the modifiers removed in the input sentence. \
+A : A modifier that does not have a core meaning in a sentence is 'with red shirt'. So The answer is {A person is running near the garden}\
+Q : In a sentence {The male surfer is riding a small wave}, Create sentences with only the core meaning left and the rest of the modifiers removed in the input sentence.\
+A : A modifier that does not have a core meaning in a sentence is 'male' and 'small'. So The answer is {The surfer is riding a wave}\
+Q : In a sentence {A very beautiful girl is standing outside the park}, Create sentences with only the core meaning left and the rest of the modifiers removed in the input sentence. \
+A : A modifier that does not have a core meaning in a sentence is 'very'. So The answer is {A beautiful girl is standing outside the park}\

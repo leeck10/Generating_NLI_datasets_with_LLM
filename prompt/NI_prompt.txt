@@ -1,0 +1,9 @@
+Q : In a sentence {Empty fog covered streets in the night}, Apply negation to the sentence. \
+A : The result of the pos_tag is [('Empty', 'NNP'), ('fog', 'NN'), ('covered', 'VBD'), ('streets', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('night', 'NN')]\
+Applying the negation to the verb 'covered' results in 'did not cover', So The answer is {Empty fog did not cover streets in the night}\
+Q : In a sentence {There is a young boy rinding a skateboard on a ledge}, Apply negation to the sentence. \
+A : The result of the pos_tag is [('There', 'EX'), ('is', 'VBZ'), ('a', 'DT'), ('young', 'JJ'), ('boy', 'NN'), ('rinding', 'VBG'), ('a', 'DT'), ('skateboard', 'NN'), ('on', 'IN'), ('a', 'DT'), ('ledge', 'NN')]\
+Applying the negation to the verb 'is' results in 'is not', So The answer is {There is not a young boy rinding a skateboard on a ledge}\
+Q : In a sentence {There are many skies and snowboards here together}, Apply negation to the sentence.\
+A : The result of the pos_tag is [('There', 'EX'), ('are', 'VBP'), ('many', 'JJ'), ('skies', 'NNS'), ('and', 'CC'), ('snowboards', 'NNS'), ('here', 'RB'), ('together', 'RB')]\
+Applying the negation to the verb 'are' results in 'are not', So The answer is {There are not many skies and snowboards here together}\

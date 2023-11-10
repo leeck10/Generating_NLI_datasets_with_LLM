@@ -1,0 +1,6 @@
+Q : In a sentence {Two men sitting on top of a blue truck}, After changing the nouns to personal pronouns (He, She, It, They, etc.) in the input sentence. If there is no personal pronouns in the sentence, print '@'. \
+A : The word with a personal pronoun in the sentence is 'Two men', and the personal pronoun of 'Two men' is 'They'. So The answer is {They sitting on top of a blue truck}\
+Q : In a sentence {boy is dancing in arena}, After changing the nouns to personal pronouns (He, She, It, They, etc.) in the input sentence. If there is no personal pronouns in the sentence, print '@'.\
+A : The word with a personal pronoun in the sentence is 'boy', and the personal pronoun of 'boy' is 'He'. So The answer is {He is dancing in arena}\
+Q : In a sentence {A woman is walking a dog in the city}, After changing the nouns to personal pronouns (He, She, It, They, etc.) in the input sentence. If there is no personal pronouns in the sentence, print '@'. \
+A : The word with a personal pronoun in the sentence is 'woman', and the personal pronoun of 'woman' is 'She'. So The answer is {She is walking a dog in the city}\

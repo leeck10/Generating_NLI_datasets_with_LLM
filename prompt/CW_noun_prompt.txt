@@ -1,0 +1,9 @@
+Q : In a sentence {she is playing the piano}, Replaces a noun with another noun that contradicts it. If there is no noun in the sentence, print '@'. \
+A : The result of the pos_tag is [('she', 'PRP'), ('is', 'VBZ'), ('playing', 'VBG'), ('the', 'DT'), ('piano', 'NN')] \
+The noun in the sentence is 'piano', and the contradictory word is 'violin'. So The answer is {she is playing the violin}\
+Q : In a sentence {Two men sitting on top of a blue truck}, Replaces a noun with another noun that contradicts it. If there is no noun in the sentence, print '@'. \
+A : The result of the pos_tag is [('Two', 'CD'), ('men', 'NNS'), ('sitting', 'VBG'), ('on', 'IN'), ('top', 'NN'), ('of', 'IN'), ('a', 'DT'), ('blue', 'JJ'), ('truck', 'NN')] \
+The noun in the sentence is 'truck', and the contradictory word is 'car'. So The answer is {Two men sitting on top of a blue car}\
+Q : In a sentence {A black dog is sleeping}, Replaces a noun with another noun that contradicts it. If there is no noun in the sentence, print '@'.\
+A : The result of the pos_tag is [('A', 'DT'), ('black', 'JJ'), ('dog', 'NN'), ('is', 'VBZ'), ('sleeping', 'VBG')] \
+The noun in the sentence is 'dog', and the contradictory word is 'cat'. So The answer is {A black cat is sleeping}\

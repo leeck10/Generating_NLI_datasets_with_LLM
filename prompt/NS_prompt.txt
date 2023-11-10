@@ -1,0 +1,9 @@
+Q : In a sentence {two cars parked on the sidewalk on the street},  Run the pos_tag and change the word with the 'CD' tag to another word. If there is no 'CD' tag, print '@'. \
+A : The result of the pos_tag is [('two', 'CD'), ('cars', 'NNS'), ('parked', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('sidewalk', 'NN'), ('on', 'IN'), ('the', 'DT'), ('street', 'NN')]\
+    The word that is the 'CD' tag in the sentence is 'two', If you change 'two' to another 'CD' tag word, it becomes 'seven', So The answer is {seven cars parked on the sidewalk on the street}\
+Q : In a sentence {Two men on a crane next to a two story building},  Run the pos_tag and change the word with the 'CD' tag to another word. If there is no 'CD' tag, print '@'.\
+A : The result of the pos_tag is [('Two', 'CD'), ('men', 'NNS'), ('on', 'IN'), ('a', 'DT'), ('crane', 'NN'), ('next', 'IN'), ('to', 'TO'), ('a', 'DT'), ('two', 'CD'), ('story', 'NN'), ('building', 'NN')]\
+    The word that is the 'CD' tag in the sentence is 'Two', If you change 'Two' to another 'CD' tag word, it becomes 'Three', So The answer is {Three men on a crane next to a two story building}\
+Q : In a sentence {This is an open box containing four cucumbers},  Run the pos_tag and change the word with the 'CD' tag to another word. If there is no 'CD' tag, print '@'.\
+A : The result of the pos_tag is [('This', 'DT'), ('is', 'VBZ'), ('an', 'DT'), ('open', 'JJ'), ('box', 'NN'), ('containing', 'VBG'), ('four', 'CD'), ('cucumbers', 'NNS')]\
+    The word that is the 'CD' tag in the sentence is 'four', If you change 'four' to another 'CD' tag word, it becomes 'five', So The answer is {This is an open box containing five cucumbers}\

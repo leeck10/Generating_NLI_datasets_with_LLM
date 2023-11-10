@@ -1,0 +1,9 @@
+Q : In a sentence {A clock is standing on top of a concrete pillar}, Exchange the position of the word corresponding to the subject and object in the sentence. If there is no subject and object in the sentence, print '@'. \
+A : The result of dependency parsing of the input sentence is [['A', 'det'], ['clock', 'nsubj'], ['is', 'aux'], ['standing', 'ROOT'], ['on', 'prep'], ['top', 'pobj'], ['of', 'prep'], ['a', 'det'], ['concrete', 'amod'], ['pillar', 'pobj']]\
+The subject of the sentence is 'clock' and the object is 'pillar', So The answer is {A pillar is standing on top of a concrete clock}\
+Q : In a sentence {A puppy standing on a green park bench}, Exchange the position of the word corresponding to the subject and object in the sentence. If there is no subject and object in the sentence, print '@'. \
+A : The result of dependency parsing of the input sentence is [['A', 'det'], ['puppy', 'amod'], ['standing', 'ROOT'], ['on', 'prep'], ['a', 'det'], ['green', 'amod'], ['park', 'compound'], ['bench', 'pobj']]\
+The subject of the sentence is 'puppy' and the object is 'bench', So The answer is {A bench standing on a green park puppy}\
+Q : In a sentence {A lady holding a bear while petting another one A bear holding}, Exchange the position of the word corresponding to the subject and object in the sentence. If there is no subject and object in the sentence, print '@'.\
+A : The result of dependency parsing of the input sentence is [['A', 'det'], ['lady', 'nsubj'], ['holding', 'acl'], ['a', 'det'], ['bear', 'dobj'], ['while', 'mark'], ['petting', 'advcl'], ['another', 'det'], ['one', 'dobj'], ['A', 'det'], ['bear', 'compound'], ['holding', 'ROOT']]\
+The subject of the sentence is 'lady' and the object is 'bear', So The answer is {A bear holding a lady while petting another one A bear holding}\

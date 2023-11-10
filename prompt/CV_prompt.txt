@@ -1,0 +1,9 @@
+Q : In a sentence {A girl is walking}, Replace the verb with another contradictory verb. If there is no verb in the sentence, print '@'. \
+A : The result of the pos_tag is [('A', 'DT'), ('girl', 'NN'), ('is', 'VBZ'), ('walking', 'VBG')] \
+The verb in the sentence is 'walking', and the contradictory verb is 'driving'. So The answer is {A girl is driving}\
+Q : In a sentence {A woman sitting on a bench next to the sea with boats}, Replace the verb with another contradictory verb. If there is no verb in the sentence, print '@'. \
+A : The result of the pos_tag is [('A', 'DT'), ('woman', 'NN'), ('sitting', 'VBG'), ('on', 'IN'), ('a', 'DT'), ('bench', 'NN'), ('next', 'IN'), ('to', 'TO'), ('the', 'DT'), ('sea', 'NN'), ('with', 'IN'), ('boats', 'NNS')] \
+The verb in the sentence is 'sitting', and the contradictory verb is 'standing'. So The answer is {A woman standing on a bench next to the sea with boats}\
+Q : In a sentence {he is playing}, Replace the verb with another contradictory verb. If there is no verb in the sentence, print '@'.\
+A : The result of the pos_tag is [('he', 'PRP'), ('is', 'VBZ'), ('playing', 'VBG')] \
+The verb in the sentence is 'playing', and the contradictory verb is 'sleeping'. So The answer is {he is sleeping}\

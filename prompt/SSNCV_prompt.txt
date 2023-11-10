@@ -1,0 +1,9 @@
+Q : In a sentence {A small child is sleeping in a bed with a bed cover}, From the input sentence, print a sentence with the same subject and no contradictory verbs with nouns added. \
+        A : The result of the pos_tag is [('A', 'DT'), ('small', 'JJ'), ('child', 'NN'), ('is', 'VBZ'), ('sleeping', 'VBG'), ('in', 'IN'), ('a', 'DT'), ('bed', 'NN'), ('with', 'IN'), ('a', 'DT'), ('bed', 'NN'), ('cover', 'NN')]\
+        Replace 'sleeping' with another non-contradictory verb, 'laying', and add the noun 'chair', So The answer is {A child laying in bed sleeping with a chair near by}\
+        Q : In a sentence {A man holds an electronic device over his head}, From the input sentence, print a sentence with the same subject and no contradictory verbs with nouns added. \
+        A : The result of the pos_tag is [('A', 'DT'), ('man', 'NN'), ('holds', 'VBZ'), ('an', 'DT'), ('electronic', 'JJ'), ('device', 'NN'), ('over', 'IN'), ('his', 'PRP$'), ('head', 'NN')]\
+        Replace 'holds' with another non-contradictory verb, 'taking photo', and add the noun 'small device', So The answer is {man is taking photo with a small device}\
+        Q : In a sentence {Two women waiting at a bench next to a street}, From the input sentence, print a sentence with the same subject and no contradictory verbs with nouns added.\
+        A : The result of the pos_tag is [('Two', 'CD'), ('women', 'NNS'), ('waiting', 'VBG'), ('at', 'IN'), ('a', 'DT'), ('bench', 'NN'), ('next', 'JJ'), ('to', 'TO'), ('a', 'DT'), ('street', 'NN')]\
+        Replace 'waiting' with another non-contradictory verb, 'standing', and add the noun 'bike path', So The answer is {Two women standing on a bench next to a bike path}\

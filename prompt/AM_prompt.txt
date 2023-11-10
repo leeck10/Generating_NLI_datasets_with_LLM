@@ -1,0 +1,9 @@
+Q : In a sentence {A man reaching up to catch a frisbee}, Add modifiers to decorate nouns in sentences. \
+A : The result of the pos_tag is [('A', 'DT'), ('man', 'NN'), ('reaching', 'VBG'), ('up', 'RP'), ('to', 'TO'), ('catch', 'VB'), ('a', 'DT'), ('frisbee', 'NN')]\
+The noun in the sentence is 'man'. A suitable modifier is 'young', So The answer is {A young man reaching up to catch a frisbee}\
+Q : In a sentence {This is a bird sitting on a twig}, Add modifiers to decorate nouns in sentences. \
+A : The result of the pos_tag is [('This', 'DT'), ('is', 'VBZ'), ('a', 'DT'), ('bird', 'NN'), ('sitting', 'VBG'), ('on', 'IN'), ('a', 'DT'), ('twig', 'NN')]\
+The noun in the sentence is 'bird'. A suitable modifier is 'small', So The answer is {This is a small bird sitting on a twig}\
+Q : In a sentence {A car parked near the fence}, Add modifiers to decorate nouns in sentences.\
+A : The result of the pos_tag is [('A', 'DT'), ('car', 'NN'), ('parked', 'VBN'), ('near', 'IN'), ('the', 'DT'), ('fence', 'NN')]\
+The noun in the sentence is 'car'. A suitable modifier is 'silver', So The answer is {A silver car parked near the fence}\

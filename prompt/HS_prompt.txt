@@ -1,0 +1,9 @@
+Q : In a sentence {a black dog is sleeping}, a noun with a parent word is changed to a parent word. If there is no noun in the sentence, print '@'. \
+A :  The result of the pos_tag is [('a', 'DT'), ('black', 'JJ'), ('dog', 'NN'), ('is', 'VBZ'), ('sleeping', 'VBG')] \
+ The noun with hypernym in the sentence is 'dog' and the parent word of the word 'dog' is 'animal'. So The answer is {a black animal is sleeping}\
+Q : In a sentence {Four men standing and taking pizza in a room}, a noun with a parent word is changed to a parent word. If there is no noun in the sentence, print '@'.\
+A :  The result of the pos_tag is [('Four', 'CD'), ('men', 'NNS'), ('standing', 'VBG'), ('and', 'CC'), ('taking', 'VBG'), ('pizza', 'NN'), ('in', 'IN'), ('a', 'DT'), ('room', 'NN')] \
+ The noun with hypernym in the sentence is 'pizza' and the parent word of the word 'pizza' is 'food'. So The answer is {Four men standing and taking food in a room}\
+Q : In a sentence {A bicycle replica with a clock as the front wheel}, a noun with a parent word is changed to a parent word. If there is no noun in the sentence, print '@'. \
+A :  The result of the pos_tag is [('A', 'DT'), ('bicycle', 'NN'), ('replica', 'NN'), ('with', 'IN'), ('a', 'DT'), ('clock', 'NN'), ('as', 'IN'), ('the', 'DT'), ('front', 'NN'), ('wheel', 'NN')] \
+ The noun with hypernym in the sentence is 'bicycle' and the parent word of the word 'bicycle' is 'vehicle'. So The answer is {A vehicle replica with a clock as the front wheel}\

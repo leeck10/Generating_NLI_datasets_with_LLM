@@ -1,0 +1,3 @@
+Generates a completely unrelated sentence. Prints only one sentence.\
+An example would be: Input: {Sign for an ancient monument on the roadside} Output: {A man goes to strike a tennis ball}\
+Input: {The Big Ben clock tower in London has the England flag on it} Output: {An elephant standing next to a tree in a forest}\
